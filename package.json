@@ -1,0 +1,23 @@
+{
+  "name": "peoleo_node_bootstrap",
+  "version": "0.0.1",
+  "description": "Bootstrap for nodejs apps",
+  "license": "Apache-2.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbaudhuin/nodebootstrap.git"
+  },
+  "scripts": {
+	"start": "node ./app.js",
+    "lint": "jshint --config jshintconfig.json .",
+    "mocha": "mocha ./ut/*.js"
+  },
+  "author": {
+    "name": "Guillaume BAUDHUIN"
+  },
+  "dependencies": {
+    "jshint": "^2.9.4",
+    "mocha": "^3.1.2"
+  }
+}
